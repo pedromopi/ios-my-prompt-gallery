@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E9DE092FE7780500ADA487 /* PromptAppleIntelligenceAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9DE082FE7780500ADA487 /* PromptAppleIntelligenceAnalyzer.swift */; };
+		23F91F9C50DE67436B4B39A4 /* AddPromptSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C0D1A533A4CAD8FCB58EB0 /* AddPromptSheet.swift */; };
+		6CE7492EECEAC57BF0AB73AC /* MyPromptGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD281A375B0773C9C5B8F2DC /* MyPromptGalleryApp.swift */; };
+		7C769357DF4D2F431E866AD4 /* PromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A4B4606A305D3F0B8813E /* PromptEntry.swift */; };
+		C44E420E2723A02223DA3BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED48C46AC8154173D6688B2 /* Assets.xcassets */; };
+		C5C1BA7F969A7F7D4225096C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD313B10233B7216DCA6C7 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E9DE072FE7702700ADA487 /* My Prompt Gallery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "My Prompt Gallery.entitlements"; sourceTree = "<group>"; };
+		00E9DE082FE7780500ADA487 /* PromptAppleIntelligenceAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptAppleIntelligenceAnalyzer.swift; sourceTree = "<group>"; };
+		2ED48C46AC8154173D6688B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D3A4B4606A305D3F0B8813E /* PromptEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptEntry.swift; sourceTree = "<group>"; };
+		A1BD313B10233B7216DCA6C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4D5593E9E0E4CF92D8FC6D5 /* My Prompt Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Prompt Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8B94A19D4BB7DAD834DB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C2C0D1A533A4CAD8FCB58EB0 /* AddPromptSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPromptSheet.swift; sourceTree = "<group>"; };
+		DD281A375B0773C9C5B8F2DC /* MyPromptGalleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPromptGalleryApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		27265EBC1258AD4808443AA8 = {
+			isa = PBXGroup;
+			children = (
+				9332F196AB94629BFCF5204B /* My Prompt Gallery */,
+				F0121A092E387ED123720905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9332F196AB94629BFCF5204B /* My Prompt Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				00E9DE072FE7702700ADA487 /* My Prompt Gallery.entitlements */,
+				C2C0D1A533A4CAD8FCB58EB0 /* AddPromptSheet.swift */,
+				2ED48C46AC8154173D6688B2 /* Assets.xcassets */,
+				A1BD313B10233B7216DCA6C7 /* ContentView.swift */,
+				AA8B94A19D4BB7DAD834DB4C /* Info.plist */,
+				7D3A4B4606A305D3F0B8813E /* PromptEntry.swift */,
+				DD281A375B0773C9C5B8F2DC /* MyPromptGalleryApp.swift */,
+				00E9DE082FE7780500ADA487 /* PromptAppleIntelligenceAnalyzer.swift */,
+			);
+			path = "My Prompt Gallery";
+			sourceTree = "<group>";
+		};
+		F0121A092E387ED123720905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D5593E9E0E4CF92D8FC6D5 /* My Prompt Gallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B98D81B1E3208C19D5CE35 /* My Prompt Gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4D0D78E1CF8897FF14F17D /* Build configuration list for PBXNativeTarget "My Prompt Gallery" */;
+			buildPhases = (
+				9426B2D36DF8D7E406DCAAB0 /* Sources */,
+				C0E881B719543A08A7A308F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Prompt Gallery";
+			packageProductDependencies = (
+			);
+			productName = "My Prompt Gallery";
+			productReference = A4D5593E9E0E4CF92D8FC6D5 /* My Prompt Gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66ED208B80EC8393E2EB5AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					24B98D81B1E3208C19D5CE35 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9C594650829F48D5E162C7C /* Build configuration list for PBXProject "My Prompt Gallery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 27265EBC1258AD4808443AA8;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B98D81B1E3208C19D5CE35 /* My Prompt Gallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0E881B719543A08A7A308F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44E420E2723A02223DA3BE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9426B2D36DF8D7E406DCAAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F91F9C50DE67436B4B39A4 /* AddPromptSheet.swift in Sources */,
+				C5C1BA7F969A7F7D4225096C /* ContentView.swift in Sources */,
+				00E9DE092FE7780500ADA487 /* PromptAppleIntelligenceAnalyzer.swift in Sources */,
+				7C769357DF4D2F431E866AD4 /* PromptEntry.swift in Sources */,
+				6CE7492EECEAC57BF0AB73AC /* MyPromptGalleryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		039B88EE42F4B04DDD6A4377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "My Prompt Gallery/My Prompt Gallery.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Prompt Gallery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Prompt Gallery";
+				INFOPLIST_KEY_CFBundleName = "My Prompt Gallery";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "O app precisa acessar a fototeca para anexar imagens geradas por IA aos prompts salvos.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromopi.promptgallery;
+				PRODUCT_NAME = "My Prompt Gallery";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7BC975977D73CBE3539DD60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "My Prompt Gallery/My Prompt Gallery.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Prompt Gallery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Prompt Gallery";
+				INFOPLIST_KEY_CFBundleName = "My Prompt Gallery";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "O app precisa acessar a fototeca para anexar imagens geradas por IA aos prompts salvos.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromopi.promptgallery;
+				PRODUCT_NAME = "My Prompt Gallery";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		846F8A1C04679CE48B08C4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NX234C75K7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C451878EA5F5BE419EEEB28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NX234C75K7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D4D0D78E1CF8897FF14F17D /* Build configuration list for PBXNativeTarget "My Prompt Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039B88EE42F4B04DDD6A4377 /* Debug */,
+				7BC975977D73CBE3539DD60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9C594650829F48D5E162C7C /* Build configuration list for PBXProject "My Prompt Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C451878EA5F5BE419EEEB28F /* Debug */,
+				846F8A1C04679CE48B08C4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66ED208B80EC8393E2EB5AC5 /* Project object */;
+}

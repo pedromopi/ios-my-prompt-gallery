@@ -1,0 +1,48 @@
+name: "My Prompt Gallery"
+options:
+  bundleIdPrefix: com.pedromopi
+  minimumXcodeGenVersion: 2.38.0
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    IPHONEOS_DEPLOYMENT_TARGET: 17.0
+
+targets:
+  "My Prompt Gallery":
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: "My Prompt Gallery"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.pedromopi.promptgallery
+        PRODUCT_NAME: "My Prompt Gallery"
+        INFOPLIST_KEY_CFBundleDisplayName: "My Prompt Gallery"
+        INFOPLIST_KEY_CFBundleName: "My Prompt Gallery"
+        GENERATE_INFOPLIST_FILE: YES
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1,2"
+    info:
+      path: "My Prompt Gallery/Info.plist"
+      properties:
+        CFBundleDisplayName: "My Prompt Gallery"
+        CFBundleName: "My Prompt Gallery"
+        UILaunchScreen: {}
+        NSPhotoLibraryUsageDescription: "O app precisa acessar a fototeca para anexar imagens geradas por IA aos prompts salvos."
+
+schemes:
+  "My Prompt Gallery":
+    build:
+      targets:
+        "My Prompt Gallery": all
+    run:
+      config: Debug
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+    profile:
+      config: Release
